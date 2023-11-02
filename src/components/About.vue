@@ -73,14 +73,6 @@
 </template>
 
 <style>
-.main-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 110%;
-  overflow-y: scroll;
-}
-
 .title {
   font-size: 2rem;
   line-height: 1.4;
@@ -128,7 +120,7 @@
 
 @media (max-width: 1800px) {
   .about-card {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -288,7 +280,6 @@
     transform: translateX(-100%);
   }
 }
-
 </style>
 
 <script lang="ts">

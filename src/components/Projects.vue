@@ -13,7 +13,7 @@
             </div>
           </v-expand-transition>
         </v-col>
-        <v-col cols="8">
+        <v-col cols="8" style="overflow-y: scroll">
           <v-row class="row">
             <v-col v-for="project in projects" :key="project.id" cols="12" sm="10" md="9" lg="6">
               <v-sheet class="pa-0 ma-0" style="background: transparent;">
@@ -43,7 +43,6 @@
 <style>
 .row {
   overflow-y: scroll;
-  height: 75%;
 }
 
 .row::-webkit-scrollbar {
@@ -57,6 +56,9 @@ const projects = [
   {id: 2, name: "CLSoft", logo: "@/assets/CLSoftware_Logo.png"},
   {id: 3, name: "Uplift.ai", logo: "@/assets/CLSoftware_Logo.png"},
   {id: 4, name: "ClimaTrack", logo: "@/assets/CLSoftware_Logo.png"},
-  {id: 5, name: "Project Four", logo: "@/assets/CLSoftware_Logo.png"},
+  {id: 5, name: "BioCortex", logo: "@/assets/CLSoftware_Logo.png"},
+  {id: 6, name: "CLSoft", logo: "@/assets/CLSoftware_Logo.png"},
+  {id: 7, name: "Uplift.ai", logo: "@/assets/CLSoftware_Logo.png"},
+  {id: 8, name: "ClimaTrack", logo: "@/assets/CLSoftware_Logo.png"},
 ];
 </script>
